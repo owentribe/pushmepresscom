@@ -2,7 +2,7 @@ axis         = require 'axis'
 rupture      = require 'rupture'
 autoprefixer = require 'autoprefixer-stylus'
 contentful   = require 'roots-contentful'
-config       = require './contentful'
+config       = require 'contentful'
 marked       = require 'marked'
 
 module.exports =
