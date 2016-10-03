@@ -9,6 +9,11 @@ block content
   // go update your app.coffee config and then test out iterating
   // over your content type here!
 
+ul
+- for topic in contentful.topics
+li
+h4=topic.id
+
 //  - ul
   //  - - for post in contentful.posts
   //    - li
