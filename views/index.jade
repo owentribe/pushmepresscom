@@ -10,10 +10,9 @@ block content
   // over your content type here!
 
 
-for topic in contentful.topics
-
-h4=topic.id
-!= marked(topic.body)
+- for topic in contentful.topics
+  h4=topic.id
+  != marked(topic.body)
 
 //  - ul
   //  - - for post in contentful.posts
