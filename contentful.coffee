@@ -4,6 +4,8 @@ module.exports =
   content_types:              # remove these object braces once the config below is filled out
      topics:                          # data will be made available through this key on the `contentful` object in your templates
        id: 'topic'                    # ID of your content type
+       template: 'views/_topic.jade'
+       write: 'data.json'
     #   filters: {}                   # passes filters to the call to contentful's API, see contentful's docs for more info
     #   template: 'views/codepage.jade'  # if present a single page view will be created for each entry in the content type
     #   path: (entry) ->              # override function for generating single page file path, passed in the entry object
