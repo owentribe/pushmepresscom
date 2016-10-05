@@ -25,5 +25,5 @@ module.exports =
         topics:
           id: 'topic'
           template: 'views/_topic.jade'
-          write: 'data.json'
+        
 ]
