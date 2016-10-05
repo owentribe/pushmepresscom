@@ -23,12 +23,9 @@ module.exports =
       space_id: '7vfiut035ckb'
       content_types:
         topics:
-          id: 'topic'
+          id: '73GL8unsu4aocWYMsaoYcI'
           template: 'views/_topic.jade'
           filters: { 'fields.environment[in]': ['staging', 'production'] }
           path: (e) -> "blogging/#{e.category}/#{slugify(e.title)}"
           write: 'data.json'
-          sort: compareFunction
-          transform: transformFunction
-        
 ]
