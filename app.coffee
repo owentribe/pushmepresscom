@@ -25,7 +25,6 @@ module.exports =
         topics:
           id: '73GL8unsu4aocWYMsaoYcI'
           template: 'views/_topic.jade'
-          filters: { 'fields.environment[in]': ['staging', 'production'] }
           path: (e) -> "blogging/#{e.category}/#{slugify(e.title)}"
           write: 'data.json'
 ]
