@@ -23,7 +23,7 @@ module.exports =
       space_id: '7vfiut035ckb'
       content_types:
         topics:
-          id: '5rUTPHybXa8AMUSQYmMSCc'
+          id: '1CeU0HvsBMhwh5WfpmH2YN'
           template: 'views/_topic.jade'
           write: 'data.json'
 ]
